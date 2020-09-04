@@ -9,7 +9,7 @@ test:
 
 
 lint:
-	hadolint Dockerfile
+	#hadolint Dockerfile
 	pylint --disable=R,C app.py
 
 
